@@ -1,0 +1,27 @@
+{
+  "name": "webpack-test-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShouriYang/webpack-test-loader.git"
+  },
+  "keywords": [
+    "wepack-loader"
+  ],
+  "author": "shouriyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShouriYang/webpack-test-loader/issues"
+  },
+  "homepage": "https://github.com/ShouriYang/webpack-test-loader#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0"
+  }
+}
