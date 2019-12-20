@@ -7,7 +7,6 @@ module.exports = {
   // 输入配置
   entry: {
     index: path.resolve(srcRoot, './page/index/index.js'),
-    another: path.resolve(srcRoot, './page/index/another-module.js'),
   }
   ,
   mode: 'development',
@@ -15,7 +14,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dev'),
     filename: '[name].min.js'
-    // filename: 'bundle.min.js'
   },
   module: {
     // 加载器配置
